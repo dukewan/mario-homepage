@@ -1,0 +1,141 @@
+body {
+	background-color: #5B8EFF;
+	font-family: 'Sigmar One', Helvetica;
+	color: #fff;
+    min-width: 640px;
+    min-height: 620px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #fff;
+}
+
+#canvas {
+    width: 100%;
+    min-height: 600px;
+}
+
+#music {
+    position: fixed;
+    right: 40px;
+    top: 30px;
+    width: 64px;
+    height: 64px;
+    background-image: url(music.png);
+    cursor: pointer;
+}
+
+
+#world {
+	font-size: 40px;
+	width: 425px;
+	padding: 10px 30px;
+	margin: 100px auto 0 auto;
+	border: 7px solid #fff;
+	border-radius: 5px;
+    cursor: pointer;
+}
+
+#clouds .cloud {
+/*    display: inline-block;*/
+    position: absolute;
+    width: 55px;
+    height: 60px;
+}
+
+#clouds .cloud1 {
+    background: url(mario.png) -592px -267px;
+}
+
+#clouds .cloud2 {
+    background: url(mario.png) -653px -265px;
+}
+
+#clouds .cloud3 {
+    background: url(mario.png) -708px -265px;
+}
+
+#playground {
+    width: 100%;
+    min-width: 640px;
+    height: 545px;
+    position: fixed;
+    bottom: 0;
+/*    background-color: gray;*/
+}
+
+#homeworks {
+    min-width: 200px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#homeworks .hw {
+    width: 95px;
+    height: 55px;
+    padding: 20px 20px;
+    margin: 30px 20px 0 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #B74900;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#mario {
+    position: absolute;
+    left: 650px;
+    top: 415px;
+    width: 55px;
+    height: 60px;
+    background: url(mario.png) 0 -178px;
+    /* flip mario */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#land {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: url(land.png) repeat-x;
+}
+
+
+#loading {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    text-align: center;
+    background-color: #40BF9D;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+#loading .mushroom {
+    width: 55px;
+    height: 55px;
+    background: url(mario.png) -193px -693px;
+    margin: 50px auto 30px auto;
+}
+
+#loading .help {
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+#loading .start {
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf8'>
+	<title>Mario Homepage</title>
+	<link href='mario/normalize.css' rel='stylesheet' type='text/css'>
+	<link href='mario/mario.css' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id='canvas'>
+        <div id='music' data-play='true'>
+        </div>
+		<div id='world'>
+			World 1 - CSCI 571
+		</div>
+
+        <div id='playground'>
+            <div id='clouds'>
+                <div class='cloud cloud1' style="left: 200px; top: 100px;"></div>
+                <div class='cloud cloud2' style="left: 350px; top: 35px;"></div>
+                <div class='cloud cloud3' style="left: 500px; top: 100px;"></div>
+                <div class='cloud cloud1' style="left: 800px; top: 100px;"></div>
+                <div class='cloud cloud2' style="left: 950px; top: 35px;"></div>
+                <div class='cloud cloud3' style="left: 1100px; top: 100px;"></div>
+            </div>
+            <div id='homeworks'>
+                <div class='hw' data-id='3'>
+                    <a href="http://www-scf.usc.edu/~yizhaohe/hw3/index.html">Homework #3</a>
+                </div>
+                <div class='hw' data-id='4'>
+                    <a href="http://www-scf.usc.edu/~yizhaohe/hw4/index.html">Homework #4</a>
+                </div>
+                <div class='hw' data-id='6'>
+                    <a href="http://cs-server.usc.edu:13466/hw6/index.php">Homework #6</a>
+                </div>
+            </div>
+            <div id='mario' data-finishjump='true'></div>
+            <div id='land'></div>
+
+            <div id='loading'>
+                <div class='mushroom'></div>
+                <div class='help'>
+                    Welcome! <br/>Use "Arrow Key" to move left and right. <br/>Use "Space" to jump. <br/>Jump and Hit the brick to redirect.<br/>
+                </div>
+                <div class='start'>OK</div>
+            </div>
+        </div>
+	</div>
+    <script src="mario/jquery-2.1.0.min.js"></script>
+    <script src="mario/e-smart-hittest-jquery.min.js"></script>
+    <script src="mario/soundmanager2-nodebug-jsmin.js"></script>
+    <script src="mario/jquery.transit.min.js"></script>
+    <script src="mario/mario.js"></script>
+    <noscript>
+</body>
+</html>
