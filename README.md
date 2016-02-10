@@ -2,7 +2,7 @@
 
 Just something with fun, enjoyed the time with Mario.
 
-Live Demo at: [Mario Homepage](http://www-scf.usc.edu/~yizhaohe/1mhz.html)
+Live Demo at: [Mario Homepage](http://1mhz.me)
 
 ## Screenshot
 
